@@ -32,8 +32,7 @@
 .contenedor{
     width: 100%;
     height: 100vh;
-    background-size: cover;
     margin-top: -70px;
-    background-position: none;
-    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg);
+    background-image: linear-gradient(rgba(000,000 ,000 , 1.0), rgba(255, 255, 255, .0)), url(https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg);
+    background-size: cover;
 }
