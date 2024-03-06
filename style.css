@@ -4,6 +4,10 @@
     list-style: none;
 }
 
+/*==============*/
+/*=====MENU=====*/
+/*==============*/
+
 .menu{
     width: 100%;
     height: 70px;
@@ -33,6 +37,52 @@
     width: 100%;
     height: 100vh;
     margin-top: -70px;
-    background-image: linear-gradient(rgba(000,000 ,000 , 1.0), rgba(255, 255, 255, .0)), url(https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg);
+    background-image: linear-gradient(rgba(001,001 ,001 , 1.0), rgba(255, 255, 255, .0)), url(https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg);
     background-size: cover;
+}
+
+/*=================*/
+/*=====Aboutas=====*/
+/*=================*/
+
+.contenedorl{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(002, 002, 002);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.glass1{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.glass2{
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.cuad{
+    background-image: url(https://recetasdeusa.com/wp-content/uploads/2022/05/Hamburguesa-americana-1-scaled.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin-top: 70px;
+    border-radius: 50px;
+}
+
+.cuad1{
+    background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/128/730/rte/184795930_4174163345962508_25162750185421696_n2.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 50px;
 }
